@@ -1,3 +1,6 @@
+# 1.8.2b
+- Fork'd and customized from Tom Wilson's source.
+
 # 1.8.1
 - updated package.json
 	- added repository field so that NPM doesn't throw a warning
@@ -5,14 +8,14 @@
 	- added author
 	- added license
 	- reformatted json
-	- updated version number 
+	- updated version number
 - foundation, should.js and passport removed from requirements in readme
 - updated readme technologies to match package.json
 
 # 1.8
 
 - added history.md for change tracking
-- updated stable dependencies 
+- updated stable dependencies
 - added bootstrap-stylus (https://github.com/Acquisio/bootstrap-stylus,not an npm module)
 - updated readme.md to better reflect technologies and dependencies
 - added session example

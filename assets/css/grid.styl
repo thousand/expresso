@@ -1,0 +1,15 @@
+
+// 'local' vars
+colWid = (pageWidth / gridColumns) - gridGutter
+
+.grid
+  clear: both
+  margin-left: (gridGutter / -2)
+  margin-right: (gridGutter / -2)
+
+for num in (1..gridColumns)
+  .col{num}
+    width: (colWid * num)
+    margin-left: (gridGutter / 2)
+    margin-right: (gridGutter / 2)
+    float: left
